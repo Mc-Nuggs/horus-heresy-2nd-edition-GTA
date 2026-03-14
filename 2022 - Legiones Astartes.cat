@@ -57126,6 +57126,11 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="690b-cae0-bdf0-334b" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink import="true" name="Chainaxe" hidden="false" id="caae-33fd-18f4-9a16" type="selectionEntry" targetId="e644-9e34-f513-5995">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -57266,6 +57271,11 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                       <constraints>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6802-bd8c-72eb-cddf" type="max"/>
                       </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Chainaxe" hidden="false" id="f7d0-e187-7e4a-6818" type="selectionEntry" targetId="85b9-4e50-af11-c295">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
