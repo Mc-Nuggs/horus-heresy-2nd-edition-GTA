@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="213" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="214" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
   <publications>
     <publication id="0594-a9b0-6f10-090e" name="Legion Javelin Squadron update" publisher="Warhammer Community Downloads" publicationDate="May 2023" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2023/05/hd7WOnm2lKCHkskG.pdf"/>
     <publication id="acdb-27b7-6b7e-932f" name="Legion Mastodon update" publisher="Warhammer Community Downloads" publicationDate="May 2023" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2023/05/AopGHpxowuowkwJw.pdf"/>
@@ -7587,6 +7587,18 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
+            </entryLink>
+            <entryLink import="true" name="Disintegrator" hidden="false" id="0164-26de-4b17-86c6" type="selectionEntry" targetId="a567-9434-36f3-5fd4">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="15" field="d2ee-04cb-5f8a-2642">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="50ed-5869-643d-1ac5" childId="097a-5712-c173-0477" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -56611,6 +56623,11 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Chainaxe" hidden="false" id="cc30-ea90-21a9-1ce6" type="selectionEntry" targetId="85b9-4e50-af11-c295">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="0082-99d9-c05d-c7ae" name="1) Bolt Pistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f80-b3e6-a151-40bd">
@@ -56763,6 +56780,11 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                 <entryLink import="true" name="Xenos Doomlock" hidden="false" id="ebda-e441-875d-2187" type="selectionEntry" targetId="4d54-e48a-4800-7f52" sortIndex="18">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Chainaxe" hidden="false" id="d61b-8aa6-99b3-1efa" type="selectionEntry" targetId="85b9-4e50-af11-c295">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
                   </costs>
                 </entryLink>
               </entryLinks>
