@@ -7588,6 +7588,18 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Disintegrator" hidden="false" id="0164-26de-4b17-86c6" type="selectionEntry" targetId="a567-9434-36f3-5fd4">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="15" field="d2ee-04cb-5f8a-2642">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="50ed-5869-643d-1ac5" childId="097a-5712-c173-0477" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="fdf4-6e43-0b7c-ab6b" name="2) Dedicated Transport:" hidden="false" collective="false" import="true">
@@ -28443,6 +28455,21 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
               </modifiers>
             </entryLink>
             <entryLink id="af48-ee55-2d0d-e655" name="The Spreading Corruption" hidden="false" collective="false" import="true" targetId="f783-f0ea-fe35-cdeb" type="selectionEntry"/>
+            <entryLink import="true" name="Warhawk Jump Pack" hidden="false" id="cf1f-f84f-dc27-0b69" type="selectionEntry" targetId="e7bc-371f-3d14-4968">
+              <categoryLinks>
+                <categoryLink targetId="eee8-3c7c-2762-e33e" id="8861-0cb8-9199-126b" primary="false" name="Jump Infantry:"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="7"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="7" field="d2ee-04cb-5f8a-2642">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="a423-7dd8-3f1b-3e28" childId="3c4d-abb8-8d0c-ae13" shared="true" roundUp="false" includeChildForces="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8fbf-dba5-5b44-1875" name="2) Dedicated Transport:" hidden="false" collective="false" import="true">
@@ -56057,7 +56084,7 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8123-5161-949b-a8f0" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8123-5161-949b-a8f0" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="334e-387f-069e-0904" name="Bulky (X)" hidden="false" targetId="676c-7b75-4b6f-9405" type="rule">
@@ -56611,6 +56638,11 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Chainaxe" hidden="false" id="cc30-ea90-21a9-1ce6" type="selectionEntry" targetId="85b9-4e50-af11-c295">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="0082-99d9-c05d-c7ae" name="1) Bolt Pistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f80-b3e6-a151-40bd">
@@ -56763,6 +56795,11 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                 <entryLink import="true" name="Xenos Doomlock" hidden="false" id="ebda-e441-875d-2187" type="selectionEntry" targetId="4d54-e48a-4800-7f52" sortIndex="18">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Chainaxe" hidden="false" id="d61b-8aa6-99b3-1efa" type="selectionEntry" targetId="85b9-4e50-af11-c295">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -57104,6 +57141,11 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="690b-cae0-bdf0-334b" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink import="true" name="Chainaxe" hidden="false" id="caae-33fd-18f4-9a16" type="selectionEntry" targetId="e644-9e34-f513-5995">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -57244,6 +57286,11 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                       <constraints>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6802-bd8c-72eb-cddf" type="max"/>
                       </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Chainaxe" hidden="false" id="f7d0-e187-7e4a-6818" type="selectionEntry" targetId="85b9-4e50-af11-c295">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
