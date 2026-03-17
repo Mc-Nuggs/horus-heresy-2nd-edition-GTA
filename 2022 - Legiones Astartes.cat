@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="213" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="214" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
   <publications>
     <publication id="0594-a9b0-6f10-090e" name="Legion Javelin Squadron update" publisher="Warhammer Community Downloads" publicationDate="May 2023" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2023/05/hd7WOnm2lKCHkskG.pdf"/>
     <publication id="acdb-27b7-6b7e-932f" name="Legion Mastodon update" publisher="Warhammer Community Downloads" publicationDate="May 2023" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2023/05/AopGHpxowuowkwJw.pdf"/>
@@ -4581,6 +4581,11 @@ When a model has two Raven’s Talons, that model gains +2 Attacks instead of th
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="38f0-3674-885b-290a" type="selectionEntry" targetId="980e-b1e7-a4a4-407f">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <modifiers>
                 <modifier type="set" value="533f-7a1c-adfb-afe4" field="defaultSelectionEntryId">
@@ -7372,6 +7377,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="5c83-f37f-29ed-be21" type="selectionEntry" targetId="980e-b1e7-a4a4-407f">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <modifiers>
                 <modifier type="set" value="533f-7a1c-adfb-afe4" field="defaultSelectionEntryId">
@@ -8695,6 +8705,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 <entryLink import="true" name="Xenos Doomlock" hidden="false" id="8ca3-fd00-ac60-8166" type="selectionEntry" targetId="4d54-e48a-4800-7f52">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="7688-f7ee-c12f-d87e" type="selectionEntry" targetId="980e-b1e7-a4a4-407f">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -20008,6 +20023,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="9b4a-f9ab-5709-eaae" type="selectionEntry" targetId="980e-b1e7-a4a4-407f">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <modifiers>
                 <modifier type="set" value="533f-7a1c-adfb-afe4" field="defaultSelectionEntryId">
@@ -22043,6 +22063,11 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Magna Combi-Weapon - Disintegrator" hidden="false" id="dd97-6e2e-f84e-3faf" type="selectionEntry" targetId="9417-90a9-e0f0-d395">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <modifiers>
                 <modifier type="set" value="533f-7a1c-adfb-afe4" field="defaultSelectionEntryId">
@@ -22144,6 +22169,11 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                 <entryLink import="true" name="Xenos Doomlock" hidden="false" id="c615-8b07-d012-afb1" type="selectionEntry" targetId="4d54-e48a-4800-7f52">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="4fa1-a651-e05f-8983" type="selectionEntry" targetId="980e-b1e7-a4a4-407f">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -23671,6 +23701,11 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="e97e-f76a-f557-96a8" type="selectionEntry" targetId="980e-b1e7-a4a4-407f">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <modifiers>
                 <modifier type="set" value="975e-155e-c416-fe75" field="defaultSelectionEntryId">
@@ -24853,6 +24888,11 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                 <entryLink import="true" name="Xenos Doomlock" hidden="false" id="f0f2-2b7e-c921-9279" type="selectionEntry" targetId="4d54-e48a-4800-7f52">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="2916-05a9-dadf-524b" type="selectionEntry" targetId="980e-b1e7-a4a4-407f">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -29824,6 +29864,11 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
+                    <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="eab3-80dc-b5f6-4b55" type="selectionEntry" targetId="980e-b1e7-a4a4-407f">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                   <modifiers>
                     <modifier type="set" value="533f-7a1c-adfb-afe4" field="defaultSelectionEntryId">
@@ -31662,6 +31707,11 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                 <entryLink import="true" name="Xenos Doomlock" hidden="false" id="7538-6338-eef8-63ff" type="selectionEntry" targetId="4d54-e48a-4800-7f52">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="e34c-ad59-28cd-0050" type="selectionEntry" targetId="980e-b1e7-a4a4-407f">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -37905,6 +37955,11 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="69c8-7b2f-452f-4dde" type="selectionEntry" targetId="980e-b1e7-a4a4-407f">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <modifiers>
                 <modifier type="set" value="533f-7a1c-adfb-afe4" field="defaultSelectionEntryId">
@@ -39548,6 +39603,11 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
                 <entryLink id="eebd-7319-7671-90f9" name="Dragon&apos;s Breath Pistol" hidden="false" collective="false" import="true" targetId="c1cb-0fa7-0d39-73ae" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="3598-6b09-6815-bc41" type="selectionEntry" targetId="980e-b1e7-a4a4-407f">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -54032,6 +54092,11 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Two Disintegrator Pistols" hidden="false" id="dc29-e776-23e8-d8c3" type="selectionEntry" targetId="bba6-6218-4a3e-e13d">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <modifiers>
                 <modifier type="set" value="9aa8-afcc-7a20-c294" field="defaultSelectionEntryId"/>
@@ -56802,6 +56867,11 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="be74-fa9d-b4da-4bfe" type="selectionEntry" targetId="980e-b1e7-a4a4-407f">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <modifiers>
                 <modifier type="set" value="7efd-ddf5-8637-4e9" field="defaultSelectionEntryId">
@@ -57998,6 +58068,11 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                       </conditions>
                     </modifier>
                   </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Two Disintegrator Pistols" hidden="false" id="03be-6480-37f1-c7fe" type="selectionEntry" targetId="bba6-6218-4a3e-e13d">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <modifiers>
@@ -71743,6 +71818,13 @@ Lacking the complexity of true automata, these stationary units are set in place
       </costs>
       <infoLinks>
         <infoLink name="Legiones Hereticus (Emperor’s Children)" id="bb08-ca7e-ac13-216b" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Two Disintegrator Pistols" hidden="false" id="bba6-6218-4a3e-e13d">
+      <infoLinks>
+        <infoLink name="Disintegrator Pistol" id="5ea4-bad3-3852-e0d5" hidden="false" type="profile" targetId="1814-f4ca-beeb-cd9e"/>
+        <infoLink name="Instant Death" id="c0ab-7e38-35b7-290d" hidden="false" type="rule" targetId="9e96-fff1-b916-d9a3"/>
+        <infoLink name="Gets Hot" id="a932-30c1-89ca-55aa" hidden="false" type="rule" targetId="679f-9d97-5ace-a652"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
