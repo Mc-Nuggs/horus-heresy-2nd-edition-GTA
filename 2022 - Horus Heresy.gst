@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - GTA Edition" revision="131" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - GTA Edition" revision="132" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication name="Github" hidden="false" id="e2a4-ac85-1bef-22f5" publisherUrl="https://github.com/BSData/horus-heresy" shortName="BSData/horus-heresy"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -11602,6 +11602,22 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         <infoLink name="Instant Death" id="1faa-43b9-48bc-9b8d" hidden="false" type="rule" targetId="9e96-fff1-b916-d9a3"/>
         <infoLink name="Twin-linked" id="2fad-5d48-ffa4-e4e8" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Saturnine Teleport Synchroniser" hidden="false" id="bda9-ef05-3e06-1e66">
+      <profiles>
+        <profile name="Saturnine Teleport Synchroniser" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="dbd7-8bf4-9ca6-e588">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Saturnine Teleport Synchroniser that is in reserves gains the Deep Strike Rule if its Unit has been joined by a Model with a Saturnine Teleportation Transponder</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="cb76-2bee-f195-602b" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9187-406b-47ad-f183" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ae85-31ed-aa40-fc2b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

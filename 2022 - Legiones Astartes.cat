@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="214" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="215" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
   <publications>
     <publication id="0594-a9b0-6f10-090e" name="Legion Javelin Squadron update" publisher="Warhammer Community Downloads" publicationDate="May 2023" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2023/05/hd7WOnm2lKCHkskG.pdf"/>
     <publication id="acdb-27b7-6b7e-932f" name="Legion Mastodon update" publisher="Warhammer Community Downloads" publicationDate="May 2023" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2023/05/AopGHpxowuowkwJw.pdf"/>
@@ -54069,10 +54069,13 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Two Disintegrator Pistols" hidden="false" id="dc29-e776-23e8-d8c3" type="selectionEntry" targetId="bba6-6218-4a3e-e13d">
+                <entryLink import="true" name="Two Disintegrator Pistols" hidden="false" id="dc29-e776-23e8-d8c3" type="selectionEntry" targetId="bba6-6218-4a3e-e13d" collective="true">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="dae6-9237-4eba-9c02"/>
+                  </constraints>
                 </entryLink>
               </entryLinks>
               <modifiers>
@@ -57980,31 +57983,49 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c42c-48a8-0609-1e2c"/>
+                  </constraints>
                 </entryLink>
                 <entryLink id="5b07-7528-8db7-807d" name="Two Alchem Pistols" hidden="false" collective="false" import="true" targetId="9b30-d725-82b2-637e" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5e43-159f-2a4f-79f2"/>
+                  </constraints>
                 </entryLink>
                 <entryLink id="a7c1-1d11-623c-ece4" name="Two Dragon&apos;s Breath Pistols" hidden="false" collective="false" import="true" targetId="d20e-2010-469c-c5b7" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="baef-29d1-afb2-4eb1"/>
+                  </constraints>
                 </entryLink>
                 <entryLink id="417a-bf24-2379-3f17" name="Two Volkite Serpenta" hidden="false" collective="false" import="true" targetId="837a-2c69-79d3-f382" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c643-369f-801a-21f7"/>
+                  </constraints>
                 </entryLink>
                 <entryLink id="e8c4-b78f-4b32-8dbf" name="Two Hand Flamers" hidden="false" collective="false" import="true" targetId="d202-8f0a-8fe9-a59c" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="13b7-0d28-ed6d-1a7d"/>
+                  </constraints>
                 </entryLink>
                 <entryLink id="322e-4c9f-050f-31ae" name="Two Shrapnel Pistols" hidden="false" collective="false" import="true" targetId="880e-822b-0170-cff5" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="4"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="fb59-b0ed-7985-6eba"/>
+                  </constraints>
                 </entryLink>
                 <entryLink id="790a-767c-68f3-2730" name="Two Bolt Pistols" hidden="false" collective="false" import="true" targetId="02ca-5c58-a852-8020" type="selectionEntry">
                   <modifiers>
@@ -58024,14 +58045,28 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                       </conditions>
                     </modifier>
                   </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a532-38f8-00e8-85ae"/>
+                  </constraints>
                 </entryLink>
                 <entryLink id="3386-168f-c8ef-2169" name="Asphyx Bolt Pistol &amp; Bolt Pistol" hidden="false" collective="false" import="true" targetId="dacb-96f1-2d0d-fe04" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8da9-23a4-941e-8ce2"/>
+                  </constraints>
                 </entryLink>
-                <entryLink id="f67e-f28b-642f-8790" name="Alchem Pistol &amp; Hand Flamer" hidden="false" collective="false" import="true" targetId="5329-ec77-c13b-d933" type="selectionEntry"/>
-                <entryLink id="b699-2287-cb63-fa7b" name="Dragon&apos;s Breath Pistol &amp; Hand Flamer" hidden="false" collective="false" import="true" targetId="d313-6be1-0f31-5bb1" type="selectionEntry"/>
+                <entryLink id="f67e-f28b-642f-8790" name="Alchem Pistol &amp; Hand Flamer" hidden="false" collective="false" import="true" targetId="5329-ec77-c13b-d933" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="803e-3698-733c-e50b"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="b699-2287-cb63-fa7b" name="Dragon&apos;s Breath Pistol &amp; Hand Flamer" hidden="false" collective="false" import="true" targetId="d313-6be1-0f31-5bb1" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="0b70-3538-f655-f8e4"/>
+                  </constraints>
+                </entryLink>
                 <entryLink import="true" name="Weapons of Desperation" hidden="false" id="27ad-85b0-c020-6fa0" type="selectionEntryGroup" targetId="c999-de13-a619-1879">
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -58041,10 +58076,13 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Two Disintegrator Pistols" hidden="false" id="03be-6480-37f1-c7fe" type="selectionEntry" targetId="bba6-6218-4a3e-e13d">
+                <entryLink import="true" name="Two Disintegrator Pistols" hidden="false" id="03be-6480-37f1-c7fe" type="selectionEntry" targetId="bba6-6218-4a3e-e13d" collective="true">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="b288-ec73-181a-dc0a"/>
+                  </constraints>
                 </entryLink>
               </entryLinks>
               <modifiers>
@@ -68767,7 +68805,7 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0038-9de0-d629-a54d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="b957-a688-09ad-2f50" name="Legion Cataphractii Centurion" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+            <profile id="b957-a688-09ad-2f50" name="Legion Saturnine Centurion" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <modifiers>
                 <modifier type="increment" field="cc42-7ed5-7092-5c84" value="1">
                   <conditionGroups>
@@ -68838,13 +68876,13 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
               </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy, Character)</characteristic>
-                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">5</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
                 <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
-                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
-                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
-                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">4</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
                 <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
@@ -69493,14 +69531,7 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
             <entryLink import="true" name="Thermal Diffraction Field" hidden="false" id="daef-587b-6571-41ae" collective="false" targetId="583f-2f8b-8178-e7dd" type="selectionEntry"/>
             <entryLink import="true" name="Occulix Targeting Auspex" hidden="false" id="dea3-2ad2-b7cb-1f67" collective="false" targetId="f28e-e9c1-6d12-fe39" type="selectionEntry"/>
             <entryLink import="true" name="Saturnine Terminator Armour" hidden="false" id="e80e-92a9-039f-7713" collective="false" targetId="4715-5e20-e30c-b404" type="selectionEntry"/>
-            <entryLink import="true" name="Grenade Harness" hidden="false" id="42df-9da2-6c9b-b9f0" collective="false" targetId="251a-860d-2c4d-62cc" type="selectionEntry">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a9d0-a7e0-8b9f-a568" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-              </costs>
-            </entryLink>
+            <entryLink import="true" name="Saturnine Teleport Synchroniser" hidden="false" id="0b9e-1370-44fd-18bb" type="selectionEntry" targetId="bda9-ef05-3e06-1e66"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -69721,7 +69752,7 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
                 <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
                 <characteristic name="W" typeId="57ee-1126-32a9-5672">5</characteristic>
-                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
                 <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
