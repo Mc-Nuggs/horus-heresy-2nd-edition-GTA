@@ -11619,6 +11619,16 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ae85-31ed-aa40-fc2b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
       </constraints>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Strato-vox" hidden="false" id="9f96-d3d5-fc17-9813">
+      <profiles>
+        <profile name="Strato-vox" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="8e0c-73ed-6c8f-7075">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Reserves Tests made for a unit that contains any models with a Strato-vox are automatically successful.  While any models with a Strato-vox are on the battlefield, before making a reserves test for a unit in reserves that includes models with the Deep Strike Special rule, the controlling player can choose to activate that Strato-vox. If they do, that reserves test is automatically successful, but the unit it was made for must make a deep strike instead of deploying normally</characteristic>
+          </characteristics>
+          <comment>#Clean up rules text.  Wordy as hell</comment>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
@@ -18683,6 +18693,9 @@ When assigning additional models to units using the Among the Ranks and Militia 
       <description>An attack that has this special rule does not roll to Wound using the normal rules, instead roll To Wound by comparing the Attack’s Strength to the target’s Strength Characteristic, using the Strength Characteristic in place of Toughness on the To Wound table. If any Attacks with this special rule inflict Wounds, do not make Armour Saves or Damage Mitigation rolls for those Wounds – instead for each Wound inflicted by an Attack with this special rule, reduce the Movement Characteristic of all models in the target unit by the number in brackets that is included as part of this special rule (to a minimum of 1) until the end of the controlling player’s next turn. The Wounds caused by Attacks with this special rule are then discarded and neither reduce the target model’s Wounds Characteristic nor cause any models to be removed as casualties (this does not affect Wounds inflicted by Attacks without this special rule that are part of the same Shooting Attack).
 
 Attacks with this special rule have no effect on models with the Vehicle or Primarch Unit Type, or on any model that starts the battle with 6 or more Wounds. Do not roll To Wound if Hits from an attack with this special rule are allocated to such a model and simply discard those Hits. Similarly, models of these Types are not affected by the modifiers to Movement inflicted by the Entangle special rule, regardless of whether other models in the same unit are affected.</description>
+    </rule>
+    <rule name="Tip of the Spear" id="f092-ca3b-25d6-fa20" hidden="false">
+      <description>If a model with this Special Rule is in reserves, if that model and every other model in the same Unit have the Infantry Type and are equipped with a Legion Warhawk Jumppack, that Model&apos;s Unit can make use of the Deep Strike Special Rule to enter play during the First Battle Turn.  Only one unit from an army can make use of this Special Rule during the same Battle Turn</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

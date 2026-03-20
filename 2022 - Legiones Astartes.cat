@@ -73656,6 +73656,40 @@ Any Solar Auxilia Rifles Sections included through the use of the Overseer’s R
             </modifier>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Master of Decent" hidden="false" id="2ee1-2900-5ad0-6c88">
+          <comment>WIP</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="25a2-7a52-632a-6b2c" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Strato-vox" hidden="false" id="6c83-bf9d-9897-b328" type="selectionEntry" targetId="9f96-d3d5-fc17-9813">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0c3d-d16a-54db-0a8e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6779-de58-6260-02f7"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Warhawk Jump Pack" hidden="false" id="0aea-390a-564e-0225" type="selectionEntry" targetId="a298-8584-70ed-18ce">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea90-d1a9-9881-77c7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30e2-581a-5aef-e608"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Tip of the Spear" id="8d3b-320e-17ef-132d" hidden="false" type="rule" targetId="f092-ca3b-25d6-fa20"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink id="b1a4-9e87-ed6b-e517" name="Legiones Consularis" targetId="5a1d-d2f6-692b-d834" type="rule"/>
