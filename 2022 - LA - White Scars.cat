@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="caa9-c50e-8eed-2259" name="LA -   V: White Scars" revision="50" battleScribeVersion="2.03" authorName="Mr_Dark, UrsinePatriarch" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="67" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="caa9-c50e-8eed-2259" name="LA -   V: White Scars" revision="51" battleScribeVersion="2.03" authorName="Mr_Dark, UrsinePatriarch" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="67" type="catalogue">
   <entryLinks>
     <entryLink id="a738-6a11-dfe7-286c" name="V: White Scars" hidden="false" collective="false" import="false" targetId="e01e-5cdd-e512-8353" type="selectionEntry">
       <modifiers>
@@ -3467,6 +3467,12 @@
       <categoryLinks>
         <categoryLink name="Unit:" hidden="false" id="7624-9db8-c7b6-a88e" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink name="Heavy Support:" hidden="false" id="5a35-e71f-2f2d-82d0" targetId="7031-469a-1aeb-eab0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Terminator Tartaros Siege Squad" hidden="false" id="786d-b17c-1a72-1822" type="selectionEntry" targetId="cbca-fd94-a8bc-5e10">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="6083-838c-a6a1-52db" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="0143-9efd-2ed2-f1d2" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

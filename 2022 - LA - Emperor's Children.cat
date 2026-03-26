@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="72ba-61c2-37ad-c785" name="LA -   III: Emperor&apos;s Children" revision="48" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="67" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="72ba-61c2-37ad-c785" name="LA -   III: Emperor&apos;s Children" revision="49" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="67" type="catalogue">
   <entryLinks>
     <entryLink id="a119-3943-4b8b-b651" name="Captain Lucius" hidden="true" collective="false" import="false" targetId="0707-1e4b-27da-9cd4" type="selectionEntry">
       <modifiers>
@@ -3258,6 +3258,12 @@
       <categoryLinks>
         <categoryLink name="Unit:" hidden="false" id="ff50-8a47-38ad-959a" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink name="Heavy Support:" hidden="false" id="a15e-b24c-594d-8a55" targetId="7031-469a-1aeb-eab0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Terminator Tartaros Siege Squad" hidden="false" id="e018-a3e6-3723-9f35" type="selectionEntry" targetId="cbca-fd94-a8bc-5e10">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="a176-6d32-e5a3-aabb" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="941a-c650-b6fb-f5e4" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - GTA Edition" revision="132" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - GTA Edition" revision="133" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication name="Github" hidden="false" id="e2a4-ac85-1bef-22f5" publisherUrl="https://github.com/BSData/horus-heresy" shortName="BSData/horus-heresy"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -18695,7 +18695,7 @@ When assigning additional models to units using the Among the Ranks and Militia 
 Attacks with this special rule have no effect on models with the Vehicle or Primarch Unit Type, or on any model that starts the battle with 6 or more Wounds. Do not roll To Wound if Hits from an attack with this special rule are allocated to such a model and simply discard those Hits. Similarly, models of these Types are not affected by the modifiers to Movement inflicted by the Entangle special rule, regardless of whether other models in the same unit are affected.</description>
     </rule>
     <rule name="Tip of the Spear" id="f092-ca3b-25d6-fa20" hidden="false">
-      <description>If a model with this Special Rule is in reserves, if that model and every other model in the same Unit have the Infantry Type and are equipped with a Legion Warhawk Jumppack, that Model&apos;s Unit can make use of the Deep Strike Special Rule to enter play during the First Battle Turn.  Only one unit from an army can make use of this Special Rule during the same Battle Turn</description>
+      <description>If a model with this Special Rule is in reserves, if that model and every other model in the same Unit have the Infantry Type and are equipped with a Legion Warhawk Jump Pack, that Model&apos;s Unit can make use of the Deep Strike Special Rule to enter play during the First Battle Turn.  Only one unit from an army can make use of this Special Rule during the same Battle Turn</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

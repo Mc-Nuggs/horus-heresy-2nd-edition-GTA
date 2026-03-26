@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="68ae-9855-b56a-95e6" name="LA -  XIII: Ultramarines" revision="47" battleScribeVersion="2.03" authorName="Mr_Dark, Alphalas, UrsinePatriarch" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="67" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="68ae-9855-b56a-95e6" name="LA -  XIII: Ultramarines" revision="48" battleScribeVersion="2.03" authorName="Mr_Dark, Alphalas, UrsinePatriarch" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="67" type="catalogue">
   <entryLinks>
     <entryLink id="76b3-52d9-a195-2b31" name="XIII: Ultramarines" hidden="false" collective="false" import="false" targetId="8e0f-3552-8842-f281" type="selectionEntry">
       <modifiers>
@@ -3157,6 +3157,12 @@
       <categoryLinks>
         <categoryLink name="Unit:" hidden="false" id="f289-c1a2-0188-bb34" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink name="Heavy Support:" hidden="false" id="32f4-6c9b-9eab-a33b" targetId="7031-469a-1aeb-eab0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Terminator Tartaros Siege Squad" hidden="false" id="04d5-d835-7f88-1e05" type="selectionEntry" targetId="cbca-fd94-a8bc-5e10">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="8c75-2c01-bc12-b764" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="a1fb-f4b7-2600-ea16" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
